@@ -1,0 +1,29 @@
+---
+title: "Og Title"
+author: "Maveen Mallah, M.A."
+institute: "American University"
+date: "mm3664a@american.edu"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [middlebury, "custom.css", fc-fonts, tamu-fonts]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+---
+#Slide 1 
+ -
+ -background-image: url(https://www.crwflags.com/fotw/images/u/us_u_au.gif)
+---
+#Slide 2
+---
+#Slide 3 
+---
+#Slide 4
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+names(xaringan:::list_css())
